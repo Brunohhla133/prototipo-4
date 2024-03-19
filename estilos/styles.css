@@ -65,6 +65,14 @@ body{
     background-size: cover;
 }
 
+/* Jumbotron Clientes */
+.jumbotron-clientes{
+    width: 100%;
+    height: 500px;
+    background-image:url(../Images/tienda-ropa/Diseño\ sin\ título\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+}
 /* h1 */
 .titulo h1{
     width: 100%;
@@ -244,6 +252,53 @@ footer p{
     text-align: center;
     }
 }
+/* Clientes */
+
+.intro{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.container{
+    background-color: hsla(36, 3%, 30%, 0.356);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container img{
+    display: block;
+    margin: 0 auto;
+    width:fit-content;
+    height: 150px;
+    border: 5px solid #e68b14
+}
+
+h3{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: #FFBD59;
+    margin-bottom: 15px;
+}
+
+.container p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+p{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.p, span{
+    color: #FFBD59;
+}
+
 
 @media  screen and (max-width:1200px){
 footer{
